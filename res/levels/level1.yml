@@ -2,7 +2,7 @@
 title: "Escape the Warehouse!"
 background: "level1.png"
 next_level: 2
-music: "level1.mp3"
+music: "level1.wav"
 opening_dialog: "Use your arrow keys to move and jump!\n\nPip loves to eat fruit. Pick up the red, yellow and orange fruit for \nextra lives, points and strength!\n\nPress [return] to begin!"
 monsters:
   - type: spider

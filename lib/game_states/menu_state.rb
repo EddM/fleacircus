@@ -1,7 +1,7 @@
 class MenuState < GameState
   
   def initialize
-    @song = Gosu::Song.new(GameWindow.current, "res/audio/menu.mp3")
+    @song = Gosu::Song.new(GameWindow.current, "res/audio/menu.wav")
     @song.play(true)
     
     @background = Gosu::Image.new(GameWindow.current, "res/graphics/circus.png", false)

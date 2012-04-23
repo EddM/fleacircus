@@ -1,7 +1,7 @@
 class IntroState < GameState
   
   def initialize(lang = "en")
-    @song = Gosu::Song.new(GameWindow.current, "res/audio/intro.mp3")
+    @song = Gosu::Song.new(GameWindow.current, "res/audio/intro.wav")
     @font = Gosu::Font.new(GameWindow.current, Gosu.default_font_name, 18)
     @small_font = Gosu::Font.new(GameWindow.current, Gosu.default_font_name, 12)
     @pip = Gosu::Image.new(GameWindow.current, "res/graphics/big-pip.png", false)

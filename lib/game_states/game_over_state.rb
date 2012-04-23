@@ -4,7 +4,7 @@ class GameOverState < GameState
   
   def initialize(score)
     @score = score
-    @music = Gosu::Song.new(GameWindow.current, "res/audio/sadtimes.mp3")
+    @music = Gosu::Song.new(GameWindow.current, "res/audio/sadtimes.wav")
     @shade_opacity = 0
     @shade = Gosu::Color.from_ahsv(@shade_opacity, 0, 0, 0)
     @text_opacity = 0
