@@ -1,0 +1,9 @@
+GEM
+  specs:
+    gosu (0.7.41)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gosu

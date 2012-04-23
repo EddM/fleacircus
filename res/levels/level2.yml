@@ -1,0 +1,14 @@
+---
+title: "Escape the Backstreet!"
+background: "level1.png"
+music: "level2.mp3"
+next_level: 2
+monsters:
+  - type: spider
+    loc: '1114,270'
+  - type: fly
+    loc: '1500,200'
+  - type: fly
+    loc: '360,150'
+  - type: 'fat spider'
+    loc: '1728,32'
